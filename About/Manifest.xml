@@ -1,6 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-    <identifier>Defensive Moats DEV</identifier>
-    <version>0.2</version>
+  <identifier>DefensiveMoats</identifier>
+  <version>1.0.1.0</version>
+  <dependencies />
+  <incompatibleWith />
+  <loadBefore />
+  <loadAfter />
+  <manifestUri>https://raw.githubusercontent.com/emipa606/DefensiveMoats/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/emipa606/DefensiveMoats/releases</downloadUri>
 </Manifest>
+
+

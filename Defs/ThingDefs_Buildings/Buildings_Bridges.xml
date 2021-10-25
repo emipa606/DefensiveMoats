@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef Name="BridgeBase" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <holdsRoof>false</holdsRoof>	
-  </ThingDef>    
-  
-<!--========================= Wooden Bridge =============================-->
-  
+    <holdsRoof>false</holdsRoof>
+  </ThingDef>
+  <!--========================= Wooden Bridge =============================-->
   <ThingDef ParentName="BridgeBase">
     <defName>MoatBridgeWood</defName>
     <label>wooden moat bridge</label>
@@ -33,7 +30,7 @@
     <constructEffect>ConstructWood</constructEffect>
     <!-- <uiIconPath>Things/Building/Moats/MoatIco</uiIconPath> -->
     <costList>
-    	<WoodLog>20</WoodLog>
+      <WoodLog>20</WoodLog>
     </costList>
     <costStuffCount>20</costStuffCount>
     <statBases>
@@ -77,5 +74,5 @@
   -->
     </building>
     <designationHotKey>Misc4</designationHotKey>
-  </ThingDef>  
+  </ThingDef>
 </Defs>

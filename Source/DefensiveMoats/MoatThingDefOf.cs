@@ -14,6 +14,5 @@ namespace DefensiveMoats
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(MoatThingDefOf));
         }
-
     }
 }
