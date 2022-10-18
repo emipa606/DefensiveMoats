@@ -1,24 +1,23 @@
 ﻿using Verse;
 
-namespace DefensiveMoats
+namespace DefensiveMoats;
+
+public class PlaceWorker_OnMoat : PlaceWorker
 {
-    public class PlaceWorker_OnMoat : PlaceWorker
+    public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map,
+        Thing thingToIgnore = null, Thing thing = null)
     {
-        public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map,
-            Thing thingToIgnore = null, Thing thing = null)
+        var currentThing = map.thingGrid.ThingAt(loc, MoatThingDefOf.Moat);
+        if (currentThing == null || currentThing.Position != loc)
         {
-            var currentThing = map.thingGrid.ThingAt(loc, MoatThingDefOf.Moat);
-            if (currentThing == null || currentThing.Position != loc)
-            {
-                return "MustPlaceOnMoat".Translate();
-            }
-
-            return true;
+            return "MustPlaceOnMoat".Translate();
         }
 
-        public override bool ForceAllowPlaceOver(BuildableDef otherDef)
-        {
-            return otherDef == MoatThingDefOf.Moat;
-        }
+        return true;
+    }
+
+    public override bool ForceAllowPlaceOver(BuildableDef otherDef)
+    {
+        return otherDef == MoatThingDefOf.Moat;
     }
 }

@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>d5ba2ce4-e675-4e5e-b37c-5c0a17aa849f</ID>
   <ModName>Defensive Moats (Continued)</ModName>
-  <Version>1.0.1.0</Version>
+  <Version>1.4.1</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,8 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-
-
