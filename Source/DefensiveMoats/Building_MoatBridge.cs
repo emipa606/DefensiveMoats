@@ -11,7 +11,7 @@ public class Building_MoatBridge : Building
     {
         base.SpawnSetup(map, respawningAfterLoad);
         moat = (Building_Moat)Map.thingGrid.ThingAt(Position, MoatThingDefOf.Moat);
-        moat.Destroy();
+        moat?.Destroy();
     }
 
     public override void DeSpawn(DestroyMode mode = DestroyMode.Vanish)
