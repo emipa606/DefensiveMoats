@@ -2,6 +2,4 @@
 
 namespace DefensiveMoats;
 
-public class Building_Moat : Building
-{
-}
+public class Building_Moat : Building;

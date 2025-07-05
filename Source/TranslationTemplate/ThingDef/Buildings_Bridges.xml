@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: wooden moat bridge -->
+  <MoatBridgeWood.label>wooden moat bridge</MoatBridgeWood.label>
+  <!-- EN: A bridge to build over moats. -->
+  <MoatBridgeWood.description>A bridge to build over moats.</MoatBridgeWood.description>
+</LanguageData>

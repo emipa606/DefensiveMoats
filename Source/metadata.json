@@ -2,5 +2,16 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "SocialImageSet": true,
+  "SearchTags": [
+    " fortifications",
+    " defense"
+  ],
+  "LastXmlCleaning": "2025-07-05T22:44:24.6365371+02:00",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 2361.0,
+  "LinesOfXML": 5361.0
 }
