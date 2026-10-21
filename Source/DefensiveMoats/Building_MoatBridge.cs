@@ -6,7 +6,6 @@ public class Building_MoatBridge : Building
 {
     private Building_Moat moat;
 
-
     public override void SpawnSetup(Map map, bool respawningAfterLoad)
     {
         base.SpawnSetup(map, respawningAfterLoad);

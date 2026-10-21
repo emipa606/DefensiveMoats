@@ -16,8 +16,8 @@ public class PlaceWorker_OnMoat : PlaceWorker
         return true;
     }
 
-    public override bool ForceAllowPlaceOver(BuildableDef otherDef)
+    public override bool ForceAllowPlaceOver(BuildableDef other)
     {
-        return otherDef == MoatThingDefOf.Moat;
+        return other == MoatThingDefOf.Moat;
     }
 }
